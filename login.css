@@ -1,0 +1,153 @@
+.login_container{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f7fa;
+    gap: 25px;
+}
+
+.login_img{
+    width: 50%;
+}
+
+.login_img img{
+    width: 35vw;
+}
+
+.login_form_container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 40px;
+    width: 30%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    right: 190px;
+}
+
+
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+label {
+    font-size: 20px;
+    color: #333;
+}
+
+input {
+    padding: 15px 30px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+button {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 4px;
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.login-btn {
+    background-color: #FF745D;
+    color: white;
+}
+
+.login-btn:hover {
+    background-color: #ff6246;
+}
+
+.google-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8px;
+    background-color: white;
+    color: black;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.google-btn img{
+    width: 23px;
+}
+
+.google-btn:hover {
+    background-color: #dbdbdb;
+}
+
+.divider {
+    border: 0;
+    height: 1px;
+    background-color: #a0a0a0;
+    margin: 10px 0;
+}
+
+.social_btn {
+    display: flex;
+    gap: 16px;
+    margin-top: 10px;
+}
+
+.github-btn{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: black;
+    color: white;
+}
+
+.gitlab-btn{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    background-color: #FC6D26;
+    color: white;
+    
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.user-icon{
+    position: relative;
+    top: 85px;
+    left: 5px;
+    width: 10px;
+}
+
+.show{
+    position: relative;
+    bottom: 49px;
+    left: 460px;
+    cursor: pointer;
+    width: 10px;
+}
+
+.noacc_passres{
+    display: flex;
+    justify-content: space-between;
+}
+
+.noacc_passres a{
+    text-decoration: none;
+    color: #FF745D;
+    font-size: 16px;
+}

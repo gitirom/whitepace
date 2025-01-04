@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="login.css">
+    <title>whitepace</title>
+</head>
+<body>
+    <div class="login_container">
+        <div class="login_img">
+            <img src="/images/rb_5267.png" alt="">
+        </div>
+        <div class="login_form_container">
+            <h2>Sign In</h2>
+            <form id="login-form" action="#" method="POST" class="login-form">
+                <div class="input-container">
+                    <i class="user-icon"><img src="/images/user.svg" width="20px" alt=""></i>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="input-container">
+                    <i class="user-icon"><img src="/images/padlock.svg" width="20px" alt=""></i>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                    <i class="show" onclick="togglePasswordVisibility()">
+                        <img id="toggleIcon" src="/images/eye.svg" width="22px" alt="Show/Hide Password">
+                    </i>
+                </div>
+    
+                <button type="submit" class="login-btn">
+                    Login
+                </button>
+                <div class="noacc_passres">
+                    <p><a href="resgister.html">Have no account?</a></p>
+                    <p><a href="passwordReset.html">Password Reset</a></p>
+                </div>
+    
+                <hr class="divider">
+    
+                <button type="button" class="google-btn">
+                    <img src="images/google.svg" alt="">
+                    Sign in with Google
+                </button>
+                <div class="social_btn">
+                    <button type="button" class="github-btn">
+                        <img src="images/github_1.svg" width="23px" alt="">
+                        Sign in with Github
+                    </button>
+                    <button type="button" class="gitlab-btn">
+                        <img src="images/gitlab.png" width="23px" alt="">
+                        Sign in with Gitlub
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div id="successToast" class="toast align-items-center text-bg-success border-0" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="d-flex">
+                <div class="toast-body">
+                    Login successful! Redirecting to home...
+                </div>
+                <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js" ></script>
+</body>
+</html>

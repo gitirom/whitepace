@@ -32,12 +32,12 @@
 .login-form {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 5px;
 }
 
 h2 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-weight: bold;
 }
 
@@ -151,3 +151,13 @@ button {
     color: #FF745D;
     font-size: 16px;
 }
+
+.social_btn_signup{
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+    
+}
+
+
+

@@ -15,13 +15,19 @@
             <img src="/images/rb_5267.png" alt="">
         </div>
         <div class="login_form_container">
-            <h2>Sign In</h2>
-            <form id="login-form" action="#" method="POST" class="login-form">
+            <h2>Sign Up</h2>
+            <form id="register-form" action="#" method="POST" class="login-form">
                 <div class="input-container">
                     <i class="user-icon"><img src="/images/user.svg" width="20px" alt=""></i>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="input-container">
+                    <i class="user-icon"><img src="/images/email.png" width="20px" alt=""></i>
                     <label for="email">Email</label>
                     <input type="email" id="email" name="email" placeholder="Enter your email" required>
                 </div>
+                
                 <div class="input-container">
                     <i class="user-icon"><img src="/images/padlock.svg" width="20px" alt=""></i>
                     <label for="password">Password</label>
@@ -32,27 +38,26 @@
                 </div>
     
                 <button type="submit" class="login-btn">
-                    Sign In
+                    Sign Up
                 </button>
                 <div class="noacc_passres">
-                    <p><a href="register.html">Have no account?</a></p>
-                    <p><a href="passwordReset.html">Password Reset</a></p>
+                    <p><a href="login.html">Sign In</a></p>
                 </div>
     
                 <hr class="divider">
     
                 <button type="button" class="google-btn">
                     <img src="images/google.svg" alt="">
-                    Sign in with Google
+                    Sign Up with Google
                 </button>
-                <div class="social_btn">
+                <div class="social_btn_signup">
                     <button type="button" class="github-btn">
                         <img src="images/github_1.svg" width="23px" alt="">
-                        Sign in with Github
+                        Sign up with Github
                     </button>
                     <button type="button" class="gitlab-btn">
                         <img src="images/gitlab.png" width="23px" alt="">
-                        Sign in with Gitlub
+                        Sign up with Gitlub
                     </button>
                 </div>
             </form>
@@ -62,7 +67,7 @@
         <div id="successToast" class="toast align-items-center text-bg-success border-0" role="alert" aria-live="assertive" aria-atomic="true">
             <div class="d-flex">
                 <div class="toast-body">
-                    Sign In successful! Redirecting to home...
+                    Sign Up successful! Redirecting to home...
                 </div>
                 <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
             </div>
